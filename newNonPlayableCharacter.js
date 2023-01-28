@@ -31,7 +31,7 @@ function newNonPlayableCharacter(x, y) {
             if(callback) {
                 callback()
             }
-        }, time)
+        }, 500)
     }
 
     function walkNorth(time, callback) {
